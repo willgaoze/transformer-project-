@@ -84,7 +84,7 @@ After fine-tuning, the model achieves a notable accuracy in classifying tweets i
 
 ## Video Recording
 
-Links to be added
+(https://www.youtube.com/watch?v=P3fIrmr6IIE)
 
 ------
 
