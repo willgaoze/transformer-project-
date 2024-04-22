@@ -45,7 +45,7 @@ We will use the SMILE Twitter dataset.The SMILE Twitter dataset, collected and a
 
 In this project, we employ the `bert-base-uncased` model from the `transformers` library as our foundation. We have fine-tuned this model on a dataset of tweets that have been labeled for emotion, specifically utilizing the SMILE emotion-annotated dataset. The fine-tuning process involves adjusting the pretrained BERT model to enhance its performance on sentiment analysis tasks tailored to the characteristics of the tweet data. The fine-tuning enables the model to more accurately understand and categorize the emotional expressions contained within tweets, effectively recognizing and classifying the sentiment conveyed in the dataset.
 
-![](images\b.png)
+![Optional Alt Text](images/b.png)
 
 ## Main steps
 
@@ -68,7 +68,7 @@ The BERT-based sentiment analysis model may struggle with texts containing sarca
 
 After fine-tuning, the model achieves a notable accuracy in classifying tweets into their respective emotion categories
 
-![](images\a.png)
+![Optional Alt Text](images/a.png)
 
 
 
