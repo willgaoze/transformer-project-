@@ -50,9 +50,10 @@ In this project, we employ the `bert-base-uncased` model from the `transformers`
 ## Main steps
 
 1. **Data Preprocessing**: Clean and format the SMILE dataset, including tokenizing and normalizing text to fit the input requirements of the `bert-base-uncased` model.
-2. **Model Fine-Tuning**: Utilize the pre-trained `bert-base-uncased` model and fine-tune it on emotion-labeled tweets to adapt it better for the sentiment analysis task.
-3. **Model Training**: Train the model on the processed data, adjusting parameters to optimize performance, such as learning rate and batch size adjustments.
-4. **Model Evaluation**: Assess the performance of the model using the test dataset through
+2. **Load Tokenizer**: Load tokenizer to encode data.
+3. **Model Setting up**: Use a pretrained BERT model. Use AdamW as an optimizer. Use Linear Schedule with Warmup as a scheduler.
+4. **Model Fine-tuning**: Using the above setting to finetune the pre-trained model in a training loop.
+5. **Model Evaluation**: Evaluate the performance of the model using test dataset with F1 score as rubric.
 
 ------
 
