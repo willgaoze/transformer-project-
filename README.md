@@ -37,7 +37,7 @@ The primary goal of this project is to accurately classify the sentiment of twee
 
 We will use the SMILE Twitter dataset.The SMILE Twitter dataset, collected and annotated for analyzing public emotional responses to cultural experiences in museums, focuses on tweets related to British museums from May 2013 to June 2015. It contains 3,085 tweets categorized into five emotions: anger, disgust, happiness, surprise, and sadness. This dataset is ideal for sentiment analysis research within the specific context of arts and culture, providing a rich source for exploring public sentiment and contributing to better cultural policy-making and museum management practices
 
-![](images\Screenshot 2024-04-22 011218.png)
+![Optional Alt Text](images/c.png)
 
 ------
 
@@ -45,7 +45,7 @@ We will use the SMILE Twitter dataset.The SMILE Twitter dataset, collected and a
 
 In this project, we employ the `bert-base-uncased` model from the `transformers` library as our foundation. We have fine-tuned this model on a dataset of tweets that have been labeled for emotion, specifically utilizing the SMILE emotion-annotated dataset. The fine-tuning process involves adjusting the pretrained BERT model to enhance its performance on sentiment analysis tasks tailored to the characteristics of the tweet data. The fine-tuning enables the model to more accurately understand and categorize the emotional expressions contained within tweets, effectively recognizing and classifying the sentiment conveyed in the dataset.
 
-![](images\Screenshot 2024-04-22 011147.png)
+![](images\b.png)
 
 ## Main steps
 
@@ -68,7 +68,7 @@ The BERT-based sentiment analysis model may struggle with texts containing sarca
 
 After fine-tuning, the model achieves a notable accuracy in classifying tweets into their respective emotion categories
 
-![](images\Screenshot 2024-04-22 001501.png)
+![](images\a.png)
 
 
 
